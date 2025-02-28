@@ -1,0 +1,7 @@
+name: ChunkLoader
+version: "${version}"
+main: me.gaminglounge.chunkloader.ChunkLoader
+description:
+api-version: "1.21.4"
+authors:
+  - "Jon1Games"
