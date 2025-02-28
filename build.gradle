@@ -33,10 +33,15 @@ repositories {
         name = "sonatype"
         url = "https://oss.sonatype.org/content/groups/public/"
     }
+    maven {
+        name = "gamingloungeMeGaminglounge"
+        url = uri("https://maven.gaminglounge.me/gaminglounge")
+    }
 }
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    implementation("me.gaminglounge:item-builder:1.0.0")
 }
 
 def targetJavaVersion = 21
